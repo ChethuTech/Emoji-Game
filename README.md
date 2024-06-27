@@ -1,6 +1,6 @@
-In this project, let's build an **Emoji Game** by applying the concepts we have learned till now.
+An **Emoji Game**, built this project by applying the concepts I have learned till now.
 
-### Refer to the image below:
+### Reference image below:
 
 <br/>
 <div style="text-align: center;">
