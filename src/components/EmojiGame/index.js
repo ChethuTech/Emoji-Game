@@ -33,7 +33,6 @@ class EmojiGame extends Component {
   }
 
   OnClickPlayAgain = () => {
-    console.log('Play Again Button Triggered')
     const {currentScore, topScore} = this.state
 
     if (currentScore > topScore) {
@@ -60,8 +59,6 @@ class EmojiGame extends Component {
     const {idListOfEmojiList} = this.state
 
     if (!idListOfEmojiList.includes(id)) {
-      console.log('id not in the list')
-
       this.setState(prevState => ({
         currentScore: prevState.currentScore + 1,
         idListOfEmojiList: [...prevState.idListOfEmojiList, id],
