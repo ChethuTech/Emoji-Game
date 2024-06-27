@@ -1,0 +1,28 @@
+.bg-container {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-card-list-container {
+  list-style: none;
+  margin: 8vw;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  .emoji-card-list-container {
+    margin: 5vh 2vw;
+    align-items: center;
+    max-width: 400px;
+  }
+}

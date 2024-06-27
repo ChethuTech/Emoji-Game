@@ -1,0 +1,32 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.emoji-list-item-container {
+-webkit-tap-highlight-color: transparent;
+}
+.emoji-btn {
+  border: #ffffff30 2px solid;
+  border-radius: 15px;
+  background-color: #ffffff33;
+  cursor: pointer;
+  outline: none;
+  width: 135px;
+  max-width: 150px;
+  height: 135px;
+  max-height: 150px;
+  margin: 15px;
+}
+.emoji-img {
+  width: 100%;
+  padding: 20%;
+}
+@media screen and (max-width: 768px) {
+  .emoji-btn {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+  }
+}
